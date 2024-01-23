@@ -40,7 +40,6 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`course_id`, `title`, `credit_hrs`, `description`, `prerequisites`) VALUES
-('ab123', '123', 1, '11', 'test_reqs_1'),
 ('IT-1050', 'Programming Logic', 3, 'Learn to solve business problems by designing, coding, and testing programming solutions using a current high-level programming language. Learn and apply standard language constructs, control flow, and beginning object-oriented programming concepts.', 'IT-1025 Information Technology Concepts for Programmers, or concurrent enrollment.'),
 ('IT-1080', 'Introduction to Data Analytics', 3, 'Broad coverage of topics key to data scientists to convert information to knowledge. Focus is on current data analytics methods to address business problems.', 'IT-1025 Information Technology Concepts for Programmers or concurrent enrollment.'),
 ('IT-1150', 'Introduction to Web Programming', 3, 'Build Web pages using current technologies including but not limited to HTML, cascading style sheets and JavaScript using an HTML editor. Focus is on developing a foundation in web programming.', 'IT-1025 Information Technology Concepts for Programmers, or concurrent enrollment.'),
@@ -75,14 +74,7 @@ CREATE TABLE `registrations` (
 --
 
 INSERT INTO `registrations` (`user_id`, `crn`, `semester`) VALUES
-('id1', '11301', 'Spring 2025'),
-('id1', '12175', 'Spring 2024'),
-('id1', '13232', 'Spring 2024'),
-('id1', '13235', 'Spring 2024'),
-('id1', '5000', 'Winter 2027'),
-('id1', 'asd13', 'Spring 2027'),
-('id5', '11301', 'Spring 2025'),
-('id5', '12175', 'Spring 2024');
+('id1', '11301', 'Spring 2025');
 
 -- --------------------------------------------------------
 
@@ -144,11 +136,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `email`, `password`) VALUES
-('id1', 'name@email.com', '$2y$10$rfyKrjpLROu5ugvNcxWrF.pImL7GfAGjeeb4Ehof.p9x1tO2A2d7q'),
-('id3', 'password@email.com', '$2y$10$L34cBdTumwcOO2.rduDTFeCG6fFIu80lYMeSmqpNRwPDll.sQ5.8G'),
-('id5', 'name@email.com', '$2y$10$NTqY5WX4To/jJHQlkPj5ceTwu8GqzIIcviln9.UXuUADHpNqoGqYG'),
-('nick', 'nickt@gmail.com', '$2y$10$aYBa7zQzQyXyuNWicYwxu.cEXzqd7GI3oe.315A2tI/E8bgYNgjV2'),
-('SAD', 'DAS@AD', '$2y$10$/kG5Q8Tg9pAvw8YjMnDYweuig2GuoocUQPU2ysthCAaXYPtL/KPtO');
+('id1', 'name@email.com', '$2y$10$rfyKrjpLROu5ugvNcxWrF.pImL7GfAGjeeb4Ehof.p9x1tO2A2d7q');
 
 --
 -- Indexes for dumped tables

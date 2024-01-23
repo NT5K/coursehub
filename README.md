@@ -1,9 +1,12 @@
 # CourseHub - Course Registration
 <img src="./images/homepage.png" alt="Homepage Screenshot" style="max-width: 50%; height: auto;"><br>
 
-## Setup and Installation
-- Open the `connection.php` file and add your username and password to connect to the it1150 database
-- Double check included `it1150-2.sql` file for database schema and data verifcation
+## Setup and Installation using XAMPP
+- Clone this repo to your htdocs folder.
+- Start Apache server and MySQL server.
+- Create the database form `it1150.sql` file using phpMyAdmin.
+- Open `connection.php` thats found in this project and add your username and password to connect to the it1150 database.
+- Open this file directory from htdocs folder where this project was saved to.
 
 ## Overview
 CourseHub is designed for managing educational courses, classes, and sections. It includes features for user authentication, course management, and schedule organization.
